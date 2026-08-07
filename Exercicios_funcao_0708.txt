@@ -1,0 +1,69 @@
+Exercício 1 - Mostre a quantidade total de clientes cadastrados.
+
+Exercício 2 Mostre a quantidade total de animais cadastrados.
+
+Exercício 3 Mostre a quantidade total de consultas realizadas.
+
+Exercício 4Calcule o valor total arrecadado com todas as consultas.
+
+Exercício 5 Mostre o valor médio das consultas.
+
+Exercício 6 Mostre o maior valor registrado em uma consulta.
+
+Exercício 7 Mostre o menor valor registrado em uma consulta.
+
+Exercício 8 Mostre a idade média dos animais cadastrados.
+
+Exercício 9 Mostre a idade do animal mais velho.
+
+Exercício 10 Mostre a idade do animal mais novo.
+
+Exercício 11 Mostre o nome de cada cliente e a quantidade de caracteres do seu nome.
+
+Exercício 12 Mostre o nome dos animais juntamente com a quantidade de letras do nome.
+
+Exercício 13 Mostre os diagnósticos e o tamanho de cada texto.
+
+Exercício 14 Liste apenas os clientes cujo nome possui mais de 10 caracteres.
+ 
+Exercício 15 Liste os animais cujo nome possui exatamente 5 caracteres.
+
+Exercício 16 Mostre todos os nomes dos clientes em letras maiúsculas.
+
+Exercício 17 Mostre os nomes dos animais em letras maiúsculas.
+
+Exercício 18 Mostre os diagnósticos escritos totalmente em letras maiúsculas.
+
+Exercício 19 Mostre os nomes dos clientes em letras minúsculas.
+
+Exercício 20 Mostre a espécie dos animais em letras minúsculas.
+
+Exercício 21 Mostre o nome da raça de todos os animais em letras minúsculas.
+
+Exercício 22 Mostre os três primeiros caracteres do nome de cada cliente.
+
+Exercício 23 Mostre os quatro primeiros caracteres do nome de cada animal.
+
+Exercício 24 Mostre os cinco primeiros caracteres do diagnóstico de cada consulta.
+ 
+Exercício 25 Mostre do segundo ao quinto caractere do nome de cada cliente.
+
+Exercício 26 Mostre os três primeiros caracteres da cidade dos clientes.
+
+Exercício 27 Mostre o valor de cada consulta arredondado para zero casas decimais.
+
+Exercício 28 Mostre a média dos valores das consultas arredondada para duas casas decimais.
+ 
+Exercício 29 Mostre o valor de cada consulta arredondado para uma casa decimal.
+
+Exercício 30 Calcule o valor médio das consultas e apresente o resultado arredondado para zero casas decimais.
+
+Exercício 31 Mostre o nome de cada cliente em letras maiúsculas e a quantidade de caracteres do nome.
+
+Exercício 32 Mostre o nome do animal e os três primeiros caracteres do nome.
+
+Exercício 33 Apresente o valor médio das consultas arredondado para duas casas decimais.
+
+Exercício 34 Mostre a soma dos valores das consultas e o maior valor registrado.
+
+Exercício 35 Exiba o diagnóstico em letras maiúsculas e informe a quantidade de caracteres do texto.

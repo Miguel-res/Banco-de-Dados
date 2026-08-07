@@ -1,0 +1,84 @@
+Desenvolver um banco de dados para uma Clínica Veterinária, aplicando os conceitos de DDL (Data Definition Language) e DML (Data Manipulation Language).
+
+Neste exercício, você deverá criar o banco de dados, definir as tabelas, inserir registros e realizar consultas utilizando os comandos estudados em aula.
+
+
+1. Crie um banco de dados chamado: ClinicaVeterinaria
+
+Em seguida, crie pelo menos 3 tabelas relacionadas.
+
+
+Cliente (id_cliente, nome, telefone, cidade)
+Animal (id_animal, nome, especie, raca, idade)
+id_cliente (chave estrangeira)
+Consulta (id_consulta, data_consulta, valor, diagnostico, id_animal (chave estrangeira))
+
+Relacionamentos
+Um cliente pode possuir vários animais.
+Um animal pode possuir várias consultas.
+
+2 - Utilizando o comando INSERT, cadastre:
+
+5 clientes
+5 animais
+5 consultas
+
+Os registros devem possuir informações diferentes e coerentes entre si.
+
+3 - Resolva os exercícios abaixo utilizando apenas os comandos estudados em sala.
+
+Exercício 1 - Liste todos os clientes cadastrados.
+
+Exercício 2 - Liste todos os animais cadastrados.
+
+Exercício 3 - Liste todas as consultas realizadas.
+
+Exercício 4 - Mostre os clientes em ordem alfabética de nome.
+
+Exercício 5 - Mostre os animais do mais velho para o mais novo.
+
+Exercício 6 - Liste as consultas da mais barata para a mais cara.
+
+Exercício 7 - Mostre os animais cuja espécie seja Cachorro.
+
+Exercício 8 - Mostre os clientes que moram na cidade de São Paulo.
+
+Exercício 9 - Liste os animais que possuem idade maior que 5 anos.
+
+Exercício 10 - Mostre os clientes que moram em São Paulo OU Campinas.
+
+Exercício 11 - Mostre os animais que sejam da espécie Gato OU Coelho.
+
+Exercício 12 - Liste as consultas com valor maior que R$100 E menor que R$300.
+
+Exercício 13 - Mostre os animais que sejam da espécie Cachorro E tenham mais de 3 anos.
+
+Exercício 14 - Liste os clientes que não moram em São Paulo.
+
+Exercício 15 - Mostre os animais que não sejam da espécie Cachorro.
+
+Exercício 16 - Liste as consultas cujo valor esteja entre R$100 e R$250.
+
+Exercício 17 - Mostre os animais cuja idade esteja entre 2 e 8 anos.
+
+Exercício 18 - Liste os clientes que moram em São Paulo, Campinas ou Sorocaba.
+
+Exercício 19 - Mostre os animais cuja espécie seja Cachorro, Gato ou Ave.
+
+Exercício 20 - Realize as consultas abaixo utilizando LIKE:
+
+a) Clientes cujo nome começa com a letra A.
+
+b) Clientes cujo nome termina com a letra o.
+
+c) Animais cujo nome contém a letra a.
+
+d) Clientes cujo nome possui a sequência "an".
+
+e) Animais cujo nome termina com "a".
+
+Exercício 21 - Liste os animais da espécie Cachorro com idade entre 2 e 8 anos.
+
+Exercício 22 - Liste as consultas com valor entre R$100 e R$300 e diagnóstico diferente de "Vacinação".
+
+Exercício 23 - Liste os clientes que moram em São Paulo ou Campinas e cujo nome começa com a letra "M".
