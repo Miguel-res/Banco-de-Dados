@@ -214,3 +214,19 @@ select sum(valor), max(valor) from Consulta;
 -- Exercício 35 Exiba o diagnóstico em letras maiúsculas e informe a quantidade de caracteres do texto.
 
 select upper(diagnostico), len(diagnostico) from Consulta;
+
+-- 1. Mostre o ID de cada cliente e a quantidade de animais que ele possui.
+
+select id_cliente, count(*) from Animal group by id_cliente;
+
+-- 2. Valor total das consultas por animal
+
+select sum(valor) from Consulta group by id_animal;
+
+-- 3. Valor médio das consultas por diagnóstico
+
+select avg(valor) from Consulta group by diagnostico;
+
+-- 4. Quantidade de consultas por diagnóstico
+
+select count(*) FROM Consulta group by diagnostico;
