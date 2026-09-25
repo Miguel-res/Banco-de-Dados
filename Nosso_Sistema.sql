@@ -14,15 +14,6 @@ create table Cliente(
 	ie char(12)
 );
 
-
-create table Pedido(
-	num_pedido numeric(4) primary key,
-	pr_entrega numeric(3),
-	cod_clie numeric(4) references Cliente,
-	cod_ven numeric(4) references Vendedor
-);
-select * from Vendedor;
-
 create table Vendedor(
 	cod_ven numeric(4) primary key,
 	salario_fixo numeric(10,2),
@@ -30,21 +21,28 @@ create table Vendedor(
 	nome_ven varchar(20) not null
 );
 
-create table Item_pedido(
-	num_pedido numeric(4) references Pedido,
-	cod_prod numeric(4) references Produto,
-	quant numeric(8,2)
-);
-select * from Item_pedido
-
-
 create table Produto(
 	cod_prod numeric(4) primary key,
 	unidade varchar(3),
 	descricao varchar(20),
 	val_unit numeric(8,2)
 );
-select * from Produto
+
+create table Pedido(
+	num_pedido numeric(4) primary key,
+	pr_entrega numeric(3),
+	cod_clie numeric(4) references Cliente,
+	cod_ven numeric(4) references Vendedor
+);
+
+
+create table Item_pedido(
+	num_pedido numeric(4) references Pedido,
+	cod_prod numeric(4) references Produto,
+	quant numeric(8,2)
+);
+
+
 
 
 insert Cliente values (720, '12113231/0001-34', '24358310', 'Niteroi', 'Ana', 'Rua 17 n.19', 'RJ', '2134')
@@ -123,9 +121,3 @@ insert Item_pedido values (189, 78, 45);
 insert Item_pedido values (143, 31, 20);
 insert Item_pedido values (143, 78, 10);
 select * from Item_pedido
-
-
-
-
-
-
